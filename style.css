@@ -22,8 +22,8 @@ ul {
 }
 
 body > header {
-    background-color: rgb(245, 245, 248);
-    color: rgb(255, 255, 255);
+    background-color: rgb(32, 32, 177);
+    color: rgb(205, 29, 29);
     display: flex;
     height: 12vh;
     align-items: center;
