@@ -263,6 +263,6 @@ input[type="submit"]:hover {
     margin: 0px; 
     padding: 8px;
     font-family: "Garamond", "sans-serif";
-    width: auto; /* Change this to auto or a larger percentage */
-    white-space: nowrap; /* Ensure it doesn't break into two lines */
+    width: auto; 
+    white-space: nowrap; 
 }
