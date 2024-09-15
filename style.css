@@ -76,7 +76,7 @@ form {
     text-align: center;
  }
 body > footer {
-    background-color: rgb(219, 21, 80);
+    background-color: rgb(81, 34, 4);
     display: flex;
 }
 
@@ -99,3 +99,117 @@ img {
     text-decoration: none;
     
 }
+#copyright
+        {   margin: 0;
+            font-size: 14px;
+            color: #ffffff;}
+
+p#follow-us 
+        {   font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;}
+
+
+#social-media {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    gap: 20px; 
+    justify-content: center; 
+}
+
+
+#social-media li {
+    display: inline-block;
+}
+
+
+#social-media li a {
+    text-decoration: none;  
+    font-size: 16px;
+    font-weight: bold;
+    color: #0077b6; 
+    padding: 10px 15px; 
+    border: 2px solid transparent; 
+    transition: all 0.3s ease; 
+    border-radius: 5px;
+}
+
+
+#social-media li a:hover {
+    color: #ffffff; 
+    background-color: #0077b6; 
+    border-color: #0077b6;
+}
+
+#contact-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#contact-email {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #333;
+}
+
+#contact-email a {
+    color: #0077b6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#contact-email a:hover {
+    color: #0096c7;
+}
+
+#contact-phone {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #333;
+}
+
+#contact-phone .phone-number {
+    color: #0077b6; 
+}
+
+#contact-section {
+    background-color: #d8b4a6;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#social-media {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+#social-media li {
+    display: inline;
+}
+
+#contact-email a {
+    color: #0077b6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#contact-email a:hover {
+    color: #0096c7;
+}
+
+#contact-phone .phone-number {
+    color: #0077b6;
+}
+
