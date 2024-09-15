@@ -5,11 +5,13 @@ body {
 }
 
 #logo {
+    font-size: 2.5em;
     margin: 0px; 
     padding: 8px;
     font-family: "Garamond", "sans-serif";
-    width: 19%;
-    }
+    width: auto; 
+    white-space: nowrap; 
+}
 
 ul {
     margin: 0px;
@@ -17,7 +19,7 @@ ul {
 
 body > header {
     background-color:#763113;
-    color: #D09E88;
+    color: #B87333;
     display: flex;
     height: 12vh;
     align-items: center;
@@ -172,7 +174,7 @@ p#follow-us
 }
 
 #contact-section {
-    background-color: #d8b4a6;
+    background-color: #ffffff;
     padding: 10px;
     border-radius: 8px;
     text-align: center;
@@ -207,28 +209,28 @@ p#follow-us
 }
 
 #main-content {
-    background-color:  #d8b4a6; 
+    background-color:  #ffffff; 
 }
 
 #about {
-    background-color:  #d8b4a6e0; 
+    background-color:  #ffffff; 
 }
 #about,
 #reviews,
 form {
-    background-color: #d8b4a6;
+    background-color: #ffffff;
     padding: 20px; 
     border-radius: 8px;
     margin-bottom: 20px;
 }
 #signup {
-    background-color:  #d8b4a6e0;
+    background-color:  #ffffff;
 }
 #main {
     background-color:  #d8b4a6e0;
 }
 #body {
-    background-color:  #d8b4a6e0;
+    background-color:  #ffffff;
 }
 button,
 input[type="submit"] {
@@ -257,11 +259,205 @@ input[type="submit"]:hover {
     height: auto;
     margin-top: 40px; 
 }
-
-#logo {
-    margin: 0px; 
-    padding: 8px;
-    font-family: "Garamond", "sans-serif";
-    width: auto; 
-    white-space: nowrap; 
+/* General Link Styles */
+a {
+    color: rgb(244, 242, 242); /* Default link color */
+    text-decoration: none; /* Remove underline */
 }
+
+a:hover {
+    color: black; /* Keep color black on hover */
+    text-decoration: underline; /* Optional: underline on hover */
+}
+
+a:visited {
+    color: black; /* Keep color black for visited links */
+}
+
+a:active {
+    color: black; /* Keep color black when active */
+}
+
+/* Specific Styles for Navigation Links */
+.navbutton {
+    color: white; /* Set text color for navigation links to white */
+}
+
+/* Additional Styles for Filter Links */
+#main-content ul li a {
+    color: black; /* Set link color to black for filter links */
+}
+
+#main-content ul li a:hover {
+    color: black; /* Keep color black on hover for filter links */
+}
+
+/* Specific Link Colors */
+.about-us,
+.why-choose-us,
+.my-cart {
+    color: white; /* Ensure these links are white */
+}
+
+.about-us:hover,
+.why-choose-us:hover,
+.my-cart:hover {
+    color: white; /* Ensure these links remain white on hover */
+}
+/* Font color for all text inside #nav-ul */
+#nav-ul {
+    color: white; /* Ensures text color is white */
+}
+
+/* Ensure links within #nav-ul are white */
+#nav-ul a {
+    color: white; /* Link color is white */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Remove hover effect or keep it white */
+#nav-ul a:hover {
+    color: white; /* Link color on hover remains white */
+}
+#filters {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Space between the two sections */
+}
+
+#filters section {
+    flex: 1;
+}
+
+#filters h4 {
+    margin-bottom: 10px;
+}
+
+#filters nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#filters nav ul li {
+    margin-bottom: 8px;
+}
+
+#filters nav ul li a {
+    text-decoration: none;
+    color: #333; /* Adjust color as needed */
+}
+
+#filters nav ul li a:hover {
+    color: #555; /* Adjust hover color as needed */
+}
+
+@media (max-width: 768px) {
+    #filters {
+        flex-direction: column;
+    }
+
+    #filters section {
+        margin-bottom: 20px;
+    }
+}
+/* Ensure you have some basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#filters {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Space between the two sections */
+    padding: 20px;
+}
+
+#filters section {
+    flex: 1; /* Make each section take up equal space */
+}
+
+#filters h4 {
+    margin-top: 0;
+}
+
+#filters ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#filters ul li {
+    margin-bottom: 10px;
+}
+
+#filters ul li a {
+    text-decoration: none;
+    color: #333; /* Adjust color as needed */
+}
+
+#filters ul li a:hover {
+    color: #555; /* Adjust hover color as needed */
+}
+
+/* Optional: Responsive design for smaller screens */
+@media (max-width: 768px) {
+    #filters {
+        flex-direction: column;
+    }
+
+    #filters section {
+        margin-bottom: 20px;
+    }
+}
+form {
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    background-color: #f9f9f9; /* Optional: background color for better readability */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Optional: make labels bold */
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+    margin-right: 5px; /* Space between checkbox/radio and label */
+}
+
+form textarea {
+    resize: vertical; /* Allow vertical resizing only */
+}
+
+form input[type="submit"] {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker background on hover */
+}
+
