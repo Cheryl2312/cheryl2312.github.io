@@ -1,12 +1,9 @@
 // List of local cake images
 const cakeImages = [
     'anniversary.jpg',
-    'birthday.jpg',
     'graduation.jpg',
     'babyshower.jpg',
     'cupcakes.jpg',
-    'fondant.jpg',
-    'layer.jpg',
     'wedding.jpg'
 ];
 
