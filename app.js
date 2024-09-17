@@ -10,6 +10,7 @@ const cakeImages = [
     'wedding.jpg'
 ];
 
+
 function getRandomCakeImage() {
     // Generate a random index
     const randomIndex = Math.floor(Math.random() * cakeImages.length);
